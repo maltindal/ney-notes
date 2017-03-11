@@ -1,0 +1,189 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/jpg.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg', sizingMethod='scale')";
+}
+
+body { padding: 20px 40% 0 40px; }
+
+h1 {
+  font-family: 'Berkshire Swash';
+  font-size: 40pt;
+  color: white;
+  margin: 20px 0 40px;
+}
+
+button {
+  position: relative;
+  background-color: #e6ab11;
+  box-shadow: 0 6px #b79507;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  top: 2px;
+  box-shadow: 0 4px #b79507;
+}
+
+button:active {
+  top: 5px;
+  box-shadow: 0 1px #b79507;
+}
+
+#toolbar {
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  fill: beige;
+}
+
+.notes,
+.notes:focus,
+.notes:active {
+  font-family: 'Open Sans';
+  font-size: 14pt;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#sheet {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  margin-bottom: 50%;
+}
+
+.ney, .ney svg { display: inline-block; height: 100%; }
+
+.ney { margin-right: 10px; }
+
+.ney-pattern > div {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px 2px 0;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.neys { height: 80%; padding-bottom: 20px; margin-top: 20px; }
+
+.fullsize {
+  width: 100%;
+  height: 100%;
+}
+
+.fullheight {
+  height: 100%;
+}
+
+.hl > * { display: inline-block; }
+
+.n.G .neva { fill: #a95600; background-color: #a95600; }
+.n.G .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.G .cargah { fill: #a95600; background-color: #a95600; }
+.n.G .segah { fill: #a95600; background-color: #a95600; }
+.n.G .kuerdi { fill: #a95600; background-color: #a95600; }
+.n.G .duegah { fill: #a95600; background-color: #a95600; }
+
+.n.A .neva { fill: #a95600; background-color: #a95600; }
+.n.A .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.A .cargah { fill: #a95600; background-color: #a95600; }
+.n.A .segah { fill: #a95600; background-color: #a95600; }
+.n.A .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.Asharp .neva { fill: #a95600; background-color: #a95600; }
+.n.Asharp .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.Asharp .cargah { fill: #a95600; background-color: #a95600; }
+.n.Asharp .segah { fill: #a95600; background-color: #a95600; }
+
+.n.B .neva { fill: #a95600; background-color: #a95600; }
+.n.B .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.B .cargah { fill: #a95600; background-color: #a95600; }
+.n.B .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.C .neva { fill: #a95600; background-color: #a95600; }
+.n.C .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.C .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.Csharp .neva { fill: #a95600; background-color: #a95600; }
+.n.Csharp .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.D .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.D .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.hD .neva { fill: #a95600; background-color: #a95600; }
+.n.hD .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hD .cargah { fill: #a95600; background-color: #a95600; }
+.n.hD .segah { fill: #a95600; background-color: #a95600; }
+.n.hD .kuerdi { fill: #a95600; background-color: #a95600; }
+.n.hD .duegah { fill: #a95600; background-color: #a95600; }
+
+.n.hEb .neva { fill: #a95600; background-color: #a95600; }
+.n.hEb .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hEb .cargah { fill: #a95600; background-color: #a95600; }
+.n.hEb .segah { fill: #a95600; background-color: #a95600; }
+.n.hEb .kuerdi { fill: #a95600; background-color: #a95600; }
+.n.hEb .duegah { fill: url(#grad); background: black linear-gradient(0deg, #a95600 50%, black 50%); }
+
+.n.hE .neva { fill: #a95600; background-color: #a95600; }
+.n.hE .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hE .cargah { fill: #a95600; background-color: #a95600; }
+.n.hE .segah { fill: #a95600; background-color: #a95600; }
+.n.hE .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.hF .neva { fill: #a95600; background-color: #a95600; }
+.n.hF .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hF .cargah { fill: #a95600; background-color: #a95600; }
+.n.hF .segah { fill: #a95600; background-color: #a95600; }
+
+.n.hFsharp .neva { fill: #a95600; background-color: #a95600; }
+.n.hFsharp .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hFsharp .cargah { fill: #a95600; background-color: #a95600; }
+.n.hFsharp .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.hG .neva { fill: #a95600; background-color: #a95600; }
+.n.hG .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hG .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.hAb .neva { fill: #a95600; background-color: #a95600; }
+.n.hAb .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.hA .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hA .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.hhB .neva { fill: #a95600; background-color: #a95600; }
+.n.hhB .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hhB .cargah { fill: #a95600; background-color: #a95600; }
+.n.hhB .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.hhC .neva { fill: #a95600; background-color: #a95600; }
+.n.hhC .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hhC .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.hhCsharp .neva { fill: #a95600; background-color: #a95600; }
+.n.hhCsharp .kuerdi { fill: #a95600; background-color: #a95600; }
+
+.n.hhD .nim-hicaz { fill: #a95600; background-color: #a95600; }
+.n.hhD .kuerdi { fill: #a95600; background-color: #a95600; }
