@@ -2,7 +2,7 @@ let neySvg = undefined;
 
 const createInputChangeListener = (input, neys) => e => {
   const notes = input.value;
-  const notesArray = notes.toUpperCase().split(',').join('').split(' ');
+  const notesArray = notes.split(',').join('').split(' ');
   while (neys.firstChild) {
     neys.removeChild(neys.firstChild);
   }
