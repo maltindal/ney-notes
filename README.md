@@ -12,3 +12,5 @@ G, A, A#, B, C, C#, D, hD, hEb, hE, hF, hF#, hG, hAb, hA, hhB, hhC, hhC#, hhD
 
 After having typed phrases and notes the sheet can be bookmarked since all the data gets base64 encoded and is added
 to the URL after the hash as well.
+
+You can give it a try [here](https://maltindal.github.io/ney-notes/#JTdCJTIycGhyYXNlcyUyMiUzQSU1QiUyMkclMkMlMjBBJTJDJTIwQSUyMyUyQyUyMEIlMkMlMjBDJTJDJTIwQyUyMyUyQyUyMEQlMkMlMjBoRCUyQyUyMGhFYiUyQyUyMGhFJTJDJTIwaEYlMkMlMjBoRiUyMyUyQyUyMGhHJTJDJTIwaEFiJTJDJTIwaEElMkMlMjBoaEIlMkMlMjBoaEMlMkMlMjBoaEMlMjMlMkMlMjBoaEQlMjIlNUQlN0Q=).
