@@ -1,5 +1,3 @@
-let neySvg = undefined;
-
 const createInputChangeListener = (input, neys) => e => {
   const notes = input.value;
   const notesArray = notes.split(',').join('').split(' ');
@@ -11,7 +9,6 @@ const createInputChangeListener = (input, neys) => e => {
     if (note.trim() === '') {
       continue;
     }
-    //neys.appendChild(createNey(note));
     neys.appendChild(createPattern(note));
   }
   updateHash();
@@ -35,22 +32,9 @@ const createDiv = className => {
   return perde;
 };
 
-const createNey = note => {
-  const ney = document.createElement('div');
-  ney.className = 'ney n ' + noteToClassName(note);
-  ney.innerHTML = neySvg;
-  return ney;
-};
-
 const noteToClassName = note => note.replace('#', 'sharp');
 
 window.onload = () => {
-  fetch('/svg/ney.svg')
-    .then(resp => resp.text())
-    .then(svgText => {
-      neySvg = svgText;
-    });
-
   const newPhraseButton = document.getElementById('new-phrase');
   newPhraseButton.addEventListener('click', onNewPhraseButtonClicked);
 
