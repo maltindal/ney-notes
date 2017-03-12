@@ -132,7 +132,7 @@ const createURI = () => {
   const phrasesValue = getPhrases();
   const urlParts = window.location.href.split('/');
   const urlData = encodeURIComponent(JSON.stringify({ phrases: phrasesValue }));
-  return urlParts[0] + '//' + urlParts[2] + '/#' + createBase64Snapshot(phrasesValue);
+  return 'https://maltindal.github.io/ney-notes/#' + createBase64Snapshot(phrasesValue);
 };
 
 const updateHash = () => {
