@@ -7,9 +7,11 @@
   <title>Ney Notes</title>
   <meta name="description" content="Illustration of different notes of the ney">
   <meta name="author" content="muhammet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.0" media="screen">
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Open+Sans" rel="stylesheet">
+
 </head>
 
 <body>
@@ -23,14 +25,24 @@
       </button>
       <button id="copy-link">
         <svg class="icon">
-          <use xlink:href="svg/sprite.min.svg#link-intact"></use>
+          <use xlink:href="svg/sprite.min.svg#link"></use>
+        </svg>
+      </button>
+      <button id="notes">
+        <svg class="icon">
+          <use xlink:href="svg/sprite.min.svg#note"></use>
         </svg>
       </button>
     </div>
     <div id="phrases">
     </div>
   </div>
+  <div id="overlays">
+    <div id="modal-curtain" class="hidden"></div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/clipboard.min.js"></script>
+  <script src="js/vexflow-min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
